@@ -1,13 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>hello </p>
-    
-</body>
+  <head>
+    <title>Portfolio Page</title>
+    <meta property="og:title" content="Portfolio Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <div class="home-links-container">
+              <a href="#about" class="home-link Navbar-Link">About</a>
+              <a href="#port" class="home-link01 Navbar-Link">Portfolio</a>
+              <a href="#education" class="home-link02 Navbar-Link">Education</a>
+              <a href="#tech" class="home-link03 Navbar-Link">Technologies</a>
+              <a href="#contact" class="home-link04 Navbar-Link">Contact</a>
+              <a href="#contact" class="home-link05 Navbar-Link">Experience</a>
+            </div>
+            <div data-role="BurgerMenu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                ></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" class="home-mobile-menu">
+              <div class="home-container1">
+                <span class="Card-Heading home-heading">Logo</span>
+                <div data-role="CloseMobileMenu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-links-container1">
+                <span class="home-link06 Navbar-Link">About</span>
+                <span class="home-link07 Navbar-Link">Experience</span>
+                <span class="home-link08 Navbar-Link">Portofolio</span>
+                <span class="Navbar-Link">Contact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator"></div>
+        <div class="home-section-separator1"></div>
+        <div class="home-container2">
+          <div class="home-hero">
+            <div id="about" class="home-hero-text-container">
+              <h1 class="home-heading1 Section-Heading">Hello,</h1>
+              <span class="home-text">
+                <span class="home-text01">I am</span>
+                <span class="home-text02">Houssem Mehouachi</span>
+                <span class="home-text03">
+                  , a web development student with a passion for&nbsp;
+                </span>
+                <span class="home-text04">
+                  creating dynamic and engaging websites.&nbsp;
+                </span>
+                <span class="home-text05">
+                  I am proficient in HTML, CSS,&nbsp;
+                </span>
+                <span class="home-text06">
+                  JavaScript, and I'm currently Learning web
+                  development&nbsp;&nbsp;
+                </span>
+                <span class="home-text07">
+                  frameworks, Specifically, React. I am always eager to learn
+                  new&nbsp;
+                </span>
+                <span class="home-text08">
+                  technologies and stay up-to-date with the latest industry
+                  trends.
+                </span>
+                <br class="home-text09" />
+                <span class="home-text10"></span>
+                <br class="home-text11" />
+                <span class="home-text12">I am&nbsp;</span>
+                <span class="home-text13">
+                  a quick learner and enjoy working in a team environment. I am
+                  looking&nbsp;
+                </span>
+                <span class="home-text14">
+                  for opportunities to gain real-world experience and apply my
+                  skills to&nbsp;
+                </span>
+                <span class="home-text15">
+                  create innovative and user-friendly websites.
+                </span>
+              </span>
+              <div class="home-cta-btn-container">
+                <button class="home-cta-btn Anchor button">
+                  <span class="home-text16">MY WORK</span>
+                </button>
+                <button class="home-cta-btn1 button">ABOUT ME</button>
+              </div>
+            </div>
+            <img
+              alt="image"
+              src="https://play.teleporthq.io/static/svg/default-img.svg"
+              class="home-image"
+            />
+          </div>
+        </div>
+        <div class="home-features">
+          <div class="home-heading-container">
+            <h2 id="port" class="home-text17 Section-Heading">Portfolio</h2>
+          </div>
+          <div class="home-cards-container">
+            <div class="home-card">
+              <div class="home-image-container"></div>
+              <div class="home-content-container">
+                <span class="home-heading2 Card-Heading">Diagrams</span>
+                <span class="home-text18 Card-Text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer nec odio. Praesent libero. Sed cursus ante dapibus
+                  diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+                </span>
+              </div>
+            </div>
+            <div class="home-card1">
+              <div class="home-icon-container">
+                <svg viewBox="0 0 1024 1024" class="home-icon04">
+                  <path
+                    d="M810 128q34 0 60 26t26 60v256h-214l44-172-172 44v-214h256zM726 726l-44-172h214v256q0 34-26 60t-60 26h-256v-214zM342 554l-44 172 172-44v214h-256q-34 0-60-26t-26-60v-256h214zM128 214q0-34 26-60t60-26h256v214l-172-44 44 172h-214v-256z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-content-container1">
+                <span class="home-heading3 Card-Heading">Wireframes</span>
+                <span class="home-text19 Card-Text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer nec odio. Praesent libero. Sed cursus ante dapibus
+                  diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+                </span>
+              </div>
+            </div>
+            <div class="home-card2">
+              <div class="home-icon-container1">
+                <svg viewBox="0 0 865.7188571428571 1024" class="home-icon06">
+                  <path
+                    d="M207.429 877.714l52-52-134.286-134.286-52 52v61.143h73.143v73.143h61.143zM506.286 347.429c0-7.429-5.143-12.571-12.571-12.571-3.429 0-6.857 1.143-9.714 4l-309.714 309.714c-2.857 2.857-4 6.286-4 9.714 0 7.429 5.143 12.571 12.571 12.571 3.429 0 6.857-1.143 9.714-4l309.714-309.714c2.857-2.857 4-6.286 4-9.714zM475.429 237.714l237.714 237.714-475.429 475.429h-237.714v-237.714zM865.714 292.571c0 19.429-8 38.286-21.143 51.429l-94.857 94.857-237.714-237.714 94.857-94.286c13.143-13.714 32-21.714 51.429-21.714s38.286 8 52 21.714l134.286 133.714c13.143 13.714 21.143 32.571 21.143 52z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="home-content-container2">
+                <span class="home-heading4 Card-Heading">Design</span>
+                <span class="home-text20 Card-Text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer nec odio. Praesent libero. Sed cursus ante dapibus
+                  diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-about">
+          <div class="home-max-content-width-container">
+            <div class="home-heading-container1">
+              <h1 id="education" class="home-text21">Education</h1>
+            </div>
+            <div class="home-content-container3">
+              <div class="home-about-1">
+                <div class="home-container3">
+                  <svg viewBox="0 0 1024 1024" class="home-icon08">
+                    <path
+                      d="M768 768v-512h-512v512h512zM768 170q34 0 60 26t26 60v512q0 34-26 60t-60 26h-512q-34 0-60-26t-26-60v-512q0-34 26-60t60-26h512z"
+                    ></path>
+                  </svg>
+                  <div class="home-container4">
+                    <h1 class="home-text22">BTS Developpement web</h1>
+                    <span class="home-text23">
+                      <span class="Card-Text">IMSET</span>
+                      <span class="Card-Text"></span>
+                      <br class="Card-Text" />
+                      <span class="home-text27 Card-Text">
+                        (October 2022 - June 2024)
+                      </span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+                <div class="home-container5">
+                  <svg viewBox="0 0 1024 1024" class="home-icon10">
+                    <path
+                      d="M768 768v-512h-512v512h512zM768 170q34 0 60 26t26 60v512q0 34-26 60t-60 26h-512q-34 0-60-26t-26-60v-512q0-34 26-60t60-26h512z"
+                    ></path>
+                  </svg>
+                  <div class="home-container6">
+                    <h1 class="home-text29">
+                      BTP maintenance micro-systéme informatique
+                    </h1>
+                    <span class="home-text30">
+                      <span class="home-text31">
+                        Centre Sectoriel de Formation en Maintenance de Nabeul
+                      </span>
+                      <br class="home-text32" />
+                      <span class="home-text33">
+                        (September 2020 - June 2022)
+                      </span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator2"></div>
+        <div class="home-clients">
+          <div class="home-heading-container2">
+            <h1 id="tech" class="home-text35">Technologies</h1>
+          </div>
+          <div class="home-logo-container">
+            <img alt="image" src="public/default-img.svg" class="home-logo" />
+            <img alt="image" src="public/default-img.svg" class="home-logo1" />
+            <img alt="image" src="public/default-img.svg" class="home-logo2" />
+            <img alt="image" src="public/default-img.svg" class="home-logo3" />
+            <img alt="image" src="public/default-img.svg" class="home-logo4" />
+          </div>
+        </div>
+        <div class="home-section-separator3"></div>
+        <div class="home-section-separator4"></div>
+        <div class="home-section-separator5"></div>
+        <div class="home-subscribe">
+          <div class="home-container7">
+            <div class="home-heading-container3">
+              <h1 id="contact" class="home-text36 Section-Heading">
+                Contact Me
+              </h1>
+            </div>
+            <input
+              type="email"
+              required="true"
+              placeholder="E-mail"
+              class="home-textinput Section-Text input"
+            />
+            <input
+              type="text"
+              required="true"
+              placeholder="Phone Number"
+              class="home-textinput1 Section-Text input"
+            />
+            <input
+              type="text"
+              required="true"
+              placeholder="Name"
+              class="home-textinput2 Section-Text input"
+            />
+            <textarea
+              placeholder="Your Message"
+              class="home-textarea Section-Text textarea"
+            ></textarea>
+            <button class="home-button Anchor button">SEND</button>
+          </div>
+        </div>
+        <div class="home-section-separator6"></div>
+        <div class="home-footer-container">
+          <div class="home-footer">
+            <div class="home-social-links">
+              <a
+                href="https://www.facebook.com/houssem.mehouachi.54/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link10"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon12">
+                  <path
+                    d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://github.com/Houssem64"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link11"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon14">
+                  <path
+                    d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/houssem-mehouachi-7681761bb/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link12"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon16">
+                  <path
+                    d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+            <div class="home-copyright-container">
+              <span class="home-link13 Anchor">
+                Houssem Mehouachi © Copyright, 2023
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
 </html>
