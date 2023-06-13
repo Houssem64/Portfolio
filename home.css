@@ -10,7 +10,7 @@
 .home-navbar-container {
   width: 100%;
   display: flex;
-  position: fixed;
+  
   align-items: center;
   flex-direction: column;
   justify-content: center;
